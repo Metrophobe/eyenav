@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: #09f;
+    font-family:"Century Gothic";
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+
+h1{
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+.wrapper{
+    width:100%;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    border: #09f solid 1px;
+    display: inline-block;;
+    color:black;
+    width:6vw;
+    height:6vw;
+    margin: 0.5vw;
+    text-align: center;
+    font-size:5vw;
+    background-color: #09f; 
+    transition:  background-color 1s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .box{
+        width:12vw;
+        height:12vw;
+        font-size:3em;
+    }
+
+}
+
+
+.selected{
+    background-color: magenta;
+}
+
