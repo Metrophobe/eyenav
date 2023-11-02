@@ -8,6 +8,16 @@ body{
     user-select: none;
 }
 
+#pointer{
+    position: absolute;
+    border-radius: 50%;
+    border: 35px solid lime;
+    background-color: green;
+    width:100px;
+    height: 100px;
+    z-index: 100;
+}
+
 h1{
     font-weight: 100;
     text-align: center;
