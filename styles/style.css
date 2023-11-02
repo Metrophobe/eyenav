@@ -8,15 +8,7 @@ body{
     user-select: none;
 }
 
-#pointer{
-    position: absolute;
-    border-radius: 50%;
-    border: 35px solid lime;
-    background-color: green;
-    width:30px;
-    height: 30px;
-    z-index: 100;
-}
+
 
 h1{
     font-weight: 100;
@@ -60,8 +52,16 @@ h1{
 
 }
 
-
 .selected{
     background-color: magenta;
 }
 
+#pointer{
+    position: absolute;
+    border-radius: 50%;
+    border: 15px solid lime;
+    background-color: green;
+    width:50px;
+    height: 50px;
+    z-index: 100;
+}
