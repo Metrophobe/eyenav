@@ -59,7 +59,7 @@ h1{
 #pointer{
     position: absolute;
     border-radius: 50%;
-    border: 15px solid lime;
+    border: 5px solid lime;
     background-color: green;
     width:50px;
     height: 50px;
